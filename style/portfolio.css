@@ -8,8 +8,19 @@
   --highlight-color: #ffc93c;
 }
 
+body {
+  background-color: var(--dark-color);
+}
 h1 {
   font-family: var(--title-font);
-  font-size: 84;
-  color: var(--dark-color);
+  font-size: 84px;
+  color: var(--primary-pink);
+}
+h1.highlight {
+  color: var(--highlight-color);
+}
+p {
+  font-family: var(--text-font);
+  font-size: 18px;
+  color: var(--light-color);
 }
