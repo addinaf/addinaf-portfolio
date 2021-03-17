@@ -7,13 +7,12 @@
   --light-color: #fcf8f3;
   --highlight-color: #ffc93c;
 }
-
 body {
-  background-color: var(--dark-color);
+  background-color: var(--light-color);
 }
 h1 {
   font-family: var(--title-font);
-  font-size: 84px;
+  font-size: 72px;
   color: var(--primary-pink);
 }
 h1.highlight {
@@ -21,6 +20,32 @@ h1.highlight {
 }
 p {
   font-family: var(--text-font);
-  font-size: 18px;
+  font-size: 14px;
   color: var(--light-color);
+}
+.navbar {
+  margin-left: 15px;
+}
+.container-landing {
+  background-color: var(--dark-color);
+  padding-bottom: 70px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.headline {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.introduction {
+  margin-top: 30px;
+  max-width: 650px;
+}
+a.nav-link {
+  font-family: var(--text-font) !important;
+  font-size: 14px !important;
+  color: var(--primary-pink) !important;
+}
+a.active {
+  font-size: bold !important;
+  color: var(--light-color) !important;
 }
