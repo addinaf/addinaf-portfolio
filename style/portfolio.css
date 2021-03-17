@@ -18,10 +18,34 @@ h1 {
 h1.highlight {
   color: var(--highlight-color);
 }
+h2 {
+  font-weight: var(--title-font);
+  font: 64px;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+h2.connect {
+  text-align: center;
+}
+h3 {
+  font-weight: var(--title-font);
+  font: 18px;
+  color: var(--dark-color);
+}
+h3.email {
+  font-size: 18px;
+  font-weight: 400;
+}
 p {
   font-family: var(--text-font);
   font-size: 14px;
   color: var(--light-color);
+}
+footer {
+  font-family: var(--text-font);
+  font-size: 12px;
+  color: var(--secondary-pink);
+  text-align: center;
 }
 .navbar {
   margin-left: 15px;
@@ -40,6 +64,14 @@ p {
   margin-top: 30px;
   max-width: 650px;
 }
+a.my-github {
+  color: var(--secondary-pink);
+  text-decoration: none;
+}
+a.my-github:hover {
+  color: var(--dark-color);
+  text-decoration: none;
+}
 a.nav-link {
   font-family: var(--text-font) !important;
   font-size: 14px !important;
@@ -48,4 +80,46 @@ a.nav-link {
 a.active {
   font-size: bold !important;
   color: var(--light-color) !important;
+}
+.container-selected-work {
+  padding-top: 70px;
+  margin-left: 30px;
+}
+.selected-work {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container-about {
+  background-color: var(--secondary-pink);
+  margin: 20px;
+  border-radius: 25px;
+}
+.container-connect {
+  padding-top: 70px;
+  margin-left: 30px;
+  padding-bottom: 50px;
+}
+.email-button {
+  text-align: center;
+}
+.links {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 250px;
+  padding-left: 250px;
+  text-align: center;
+  justify-content: center;
+}
+a.footer-links {
+  font-family: var(--text-font);
+  color: var(--dark-color);
+  font-size: 14px;
+  text-decoration: none;
+  justify-content: center;
+}
+a.footer-links:hover {
+  color: var(--primary-pink);
+}
+a.footer-links:visited {
+  text-decoration: none;
 }
