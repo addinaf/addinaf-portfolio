@@ -1,0 +1,15 @@
+:root {
+  --title-font: "Lexend Deca", sans-serif;
+  --text-font: "Open Sans", sans-serif;
+  --dark-color: #685454;
+  --primary-pink: #ea8a8a;
+  --secondary-pink: #ffaaa5;
+  --light-color: #fcf8f3;
+  --highlight-color: #ffc93c;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 84;
+  color: var(--dark-color);
+}
