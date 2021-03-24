@@ -19,26 +19,36 @@ h1.highlight {
   color: var(--highlight-color);
 }
 h2 {
-  font-weight: var(--title-font);
-  font: 64px;
-  font-weight: 600;
+  font-family: var(--title-font);
+  font: 32px;
+  font-weight: 400;
   color: var(--dark-color);
 }
 h2.connect {
   text-align: center;
 }
 h3 {
-  font-weight: var(--title-font);
-  font: 18px;
+  font-family: var(--title-font);
+  font: 16px;
+  color: var(--dark-color);
+}
+h4 {
+  padding-top: 10px;
+  font-family: var(--title-font);
+  font: 12px;
   color: var(--dark-color);
 }
 h3.email {
   font-size: 18px;
-  font-weight: 400;
+  font-family: 400;
 }
 p {
+  padding-top: 10px;
   font-family: var(--text-font);
   font-size: 14px;
+  color: var(--dark-color);
+}
+p.introduction {
   color: var(--light-color);
 }
 footer {
@@ -59,8 +69,9 @@ footer {
 .headline {
   margin-top: 70px;
   margin-left: 30px;
+  max-width: 650px;
 }
-.introduction {
+. .introduction {
   margin-top: 30px;
   max-width: 650px;
 }
@@ -84,6 +95,7 @@ a.active {
 .container-selected-work {
   padding-top: 70px;
   margin-left: 30px;
+  margin-right: 30px;
 }
 .selected-work {
   margin-top: 30px;
@@ -91,8 +103,10 @@ a.active {
 }
 .container-about {
   background-color: var(--secondary-pink);
-  margin: 20px;
+  margin-top: 70px;
   border-radius: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .container-connect {
   padding-top: 70px;
