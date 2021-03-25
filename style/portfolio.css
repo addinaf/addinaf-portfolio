@@ -156,6 +156,19 @@ a:visited {
   text-decoration: none;
 }
 a.email-button:visited {
-  color:var(--light-color);
+  color: var(--light-color);
 }
+a.email-button {
+  color: var(--light-color);
+}
+img.profile {
+  max-width: 250px;
+}
+.about-me {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  display: inline-flex;
+  align-content: center;
 }
