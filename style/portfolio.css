@@ -71,7 +71,7 @@ footer {
   margin-left: 30px;
   max-width: 650px;
 }
-. .introduction {
+.introduction {
   margin-top: 30px;
   max-width: 650px;
 }
@@ -134,4 +134,28 @@ a.footer-links:hover {
 }
 a.footer-links:visited {
   text-decoration: none;
+}
+.btn {
+  background-color: var(--primary-pink);
+  color: var(--light-color) !important;
+  border-radius: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  font-family: var(--text-font) !important;
+}
+.btn:hover {
+  background-color: var(--dark-color);
+  color: var(--light-color) !important;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a.email-button:visited {
+  color:var(--light-color);
+}
 }
