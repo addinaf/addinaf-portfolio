@@ -43,6 +43,10 @@ h3.email {
   font-size: 18px;
   font-family: 400;
 }
+h4.selected-work {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
 p {
   padding-top: 10px;
   font-family: var(--text-font);
@@ -163,5 +167,15 @@ img.profile {
   max-width: 250px;
 }
 .about-me {
-  justify-content: center;
+}
+img.work {
+  border-radius: 10px;
+}
+.border {
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-color: var(--secondary-pink) !important;
 }
