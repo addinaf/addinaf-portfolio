@@ -22,8 +22,36 @@ h1.highlight {
 h1.take-a-look {
   font-size: 48px;
 }
-h1.name-aboout-page {
+h1.name-about-page {
   color: var(--dark-color);
+}
+.typewriter {
+  overflow: hidden;
+  border-right: 0.15em solid var(--highlight-color); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--dark-color);
+  }
 }
 h2 {
   font-family: var(--title-font);
@@ -47,9 +75,6 @@ h4 {
 }
 h4.description-about-page {
   color: var(--primary-pink);
-}
-h4.icon-list-pink {
-  color: var(--secondary-pink);
 }
 h5 {
   padding-top: 10px;
