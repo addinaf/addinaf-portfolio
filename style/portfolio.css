@@ -22,6 +22,9 @@ h1.highlight {
 h1.take-a-look {
   font-size: 48px;
 }
+h1.name-aboout-page {
+  color: var(--dark-color);
+}
 h2 {
   font-family: var(--title-font);
   font: 32px;
@@ -41,6 +44,12 @@ h4 {
   font-family: var(--title-font);
   font: 12px;
   color: var(--dark-color);
+}
+h4.description-about-page {
+  color: var(--primary-pink);
+}
+h4.icon-list-pink {
+  color: var(--secondary-pink);
 }
 h5 {
   padding-top: 10px;
@@ -167,11 +176,26 @@ a.footer-links:visited {
   background-color: var(--dark-color);
   color: var(--light-color) !important;
 }
+.light-btn {
+  background-color: var(--light-color);
+  color: var(--primary-pink) !important;
+  border-style: none;
+}
 a {
   text-decoration: none;
+  color: var(--light-color);
+}
+a:hover {
+  color: var(--light-color);
 }
 a:visited {
   text-decoration: none;
+}
+a.light-link {
+  color: var(--primary-pink);
+}
+a.light-link:hover {
+  color: var(--light-color);
 }
 a.email-button:visited {
   color: var(--light-color);
