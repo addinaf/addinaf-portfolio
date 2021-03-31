@@ -19,6 +19,9 @@ h1.highlight {
   color: var(--highlight-color);
   font-size: 56px;
 }
+h1.take-a-look {
+  font-size: 48px;
+}
 h2 {
   font-family: var(--title-font);
   font: 32px;
@@ -97,9 +100,13 @@ a.nav-link {
   font-size: 14px !important;
   color: var(--primary-pink) !important;
 }
-a.active {
+a.active-home {
   font-size: bold !important;
   color: var(--light-color) !important;
+}
+a.active {
+  font-size: bold !important;
+  color: var(--dark-color) !important;
 }
 .container-selected-work {
   padding-top: 70px;
@@ -178,6 +185,9 @@ img.profile {
 img.work {
   border-radius: 10px;
 }
+img.work-page {
+  border-radius: 10px;
+}
 .border {
   border-radius: 20px;
   padding-top: 5px;
@@ -191,7 +201,15 @@ img.work {
   color: var(--primary-pink) !important;
   background-color: var(--light-color);
 }
-
+.work-title {
+  padding-bottom: 70px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.content-work {
+  margin-left: 30px;
+  margin-right: 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -223,5 +241,12 @@ img.work {
     padding-right: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+  img.work-page {
+    margin-top: 25px;
+  }
+  .work-page-content {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
