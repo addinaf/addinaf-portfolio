@@ -76,6 +76,9 @@ h4 {
 h4.description-about-page {
   color: var(--primary-pink);
 }
+h4.skill-title {
+  text-align: center;
+}
 h5 {
   padding-top: 10px;
   padding-bottom: 15px;
@@ -228,6 +231,9 @@ a.email-button:visited {
 a.email-button {
   color: var(--light-color);
 }
+img.icon-hero {
+  margin-right: 50px;
+}
 img.profile {
   max-width: 250px;
 }
@@ -258,6 +264,27 @@ img.work-page {
 .content-work {
   margin-left: 30px;
   margin-right: 30px;
+}
+.headline-about {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.container-about-page {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+.container-skill-proficiency {
+  background-color: var(--secondary-pink);
+  margin-top: 70px;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 @media (max-width: 900px) {
   h1 {
