@@ -55,7 +55,7 @@ h1.name-about-page {
 }
 h1.skill-icon-list {
   color: var(--light-color);
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
 }
 h2 {
@@ -93,7 +93,7 @@ h5 {
 }
 h5.skill-description {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
 }
 h3.email {
@@ -170,6 +170,7 @@ a.active {
   margin-top: 70px;
   border-radius: 25px;
   margin-left: 30px;
+  margin-right: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -284,17 +285,22 @@ img.work-page {
 .container-about-page {
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 .container-skill-proficiency {
   background-color: var(--secondary-pink);
-  margin-top: 70px;
+  margin-top: 50px;
   border-radius: 25px;
   margin-left: 30px;
   margin-right: 30px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+}
+container-education {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 150px;
 }
 @media (max-width: 900px) {
   h1 {
