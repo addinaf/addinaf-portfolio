@@ -104,6 +104,15 @@ h4.selected-work {
   margin-bottom: 5px;
   margin-top: 15px;
 }
+h5.education-about-page {
+  font-size: 16px;
+  color: var(--primary-pink);
+  font-weight: 400;
+  margin-bottom: -30px;
+}
+.icon-education {
+  color: var(--dark-color);
+}
 p {
   padding-top: 10px;
   font-family: var(--text-font);
