@@ -7,6 +7,9 @@
   --light-color: #fcf8f3;
   --highlight-color: #ffc93c;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--light-color);
 }
