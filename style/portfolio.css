@@ -306,12 +306,12 @@ img.work-page {
   margin-left: 30px;
   margin-right: 30px;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .container-education {
   margin-left: 30px;
   margin-right: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -330,7 +330,7 @@ img.work-page {
     font-size: 14px;
   }
   h3.email {
-    font-size: 14px;
+    font-size: 12px;
   }
   .about-me {
     margin-left: 30px;
