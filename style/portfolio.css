@@ -356,4 +356,10 @@ img.work-page {
     margin-right: 50px;
     margin-left: 50px;
   }
+  .container-connect {
+    padding-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+  }
 }
